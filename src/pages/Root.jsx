@@ -1,17 +1,17 @@
 import { Link, Outlet } from 'react-router-dom';
 import PatientsList from './Patients';
-import Coins  from './Coins';
+import Login  from './Login';
 import styles from './Root.module.css';
 
 function Root() {
     return(
         <>
         <div className={styles.headerRoot}>
-        <h1>Phys</h1>
+        <h1>Patient Dashboard</h1>
         <nav>
         <Link to="/">Home</Link>
         <Link to="/patients">Patients</Link>
-        <Link to="/coins">Coins</Link>
+        <Link to="/login">Login</Link>
         
         </nav>
         <Outlet />

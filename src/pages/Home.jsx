@@ -5,8 +5,8 @@ import {Link} from "react-router-dom";
 function Home() {
     return(
         <>
-        <h1>Home</h1>
-        <h2>Estructura futura de la pagina</h2>
+        
+        <h2>Estructura futura de la pagina de Home</h2>
         <img src="../patient dashboard idea.png" alt="Imagen de perfil" ></img>
 
     

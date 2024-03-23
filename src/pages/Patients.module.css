@@ -4,10 +4,12 @@
     border-radius: 50%; /* Hace que la imagen sea redonda */
     object-fit: cover; /* Para ajustar la imagen dentro del círculo */
     border: 2px solid #fff; /* Opcional: añade un borde blanco alrededor de la imagen */
+    text-align: center;
   }
   
   .patientStructure{
     display:flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center ;
     gap:20px;
@@ -35,4 +37,5 @@
   .buttonColor{
     background-color: rgb(10, 112, 247);
     color:white;
+    padding: 0px 20px 0px 20px;
   }

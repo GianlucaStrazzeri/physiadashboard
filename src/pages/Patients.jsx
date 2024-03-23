@@ -10,6 +10,7 @@ function PatientsList() {
     return(
         <>
         <div className={styles.userHeader}>
+            
             <h1>Patients: (90 pacientes)</h1>
             <div className={styles.buttonHeader}>
                 <button className={styles.buttonColor}>Crear nuevo Paciente</button>
@@ -19,23 +20,36 @@ function PatientsList() {
         </div>
         
         <div className={styles.patientStructure}>
-            <div>
+        <div>
                 <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
-                <h3>Jesús Garcia</h3>
-                <p>Numero de movil: 0123456789</p>
+                <h3>Nombre</h3>
+                <p>Numero de movil </p>
+                <p>Email</p>
+                <p>Patología</p>
             </div>
             <div>
                 <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
                 <h3>Jesús Garcia</h3>
-                <p>Numero de movil: 0123456789</p>
-            </div><div>
+                <p>Numero de movil </p>
+                <p>0123456789</p>
+            </div>
+            <div>
                 <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
                 <h3>Jesús Garcia</h3>
-                <p>Numero de movil: 0123456789</p>
-            </div><div>
+                <p>Numero de movil </p>
+                <p>0123456789</p>
+            </div>
+            <div>
                 <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
                 <h3>Jesús Garcia</h3>
-                <p>Numero de movil: 0123456789</p>
+                <p>Numero de movil </p>
+                <p>0123456789</p>
+            </div>
+            <div>
+                <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
+                <h3>Jesús Garcia</h3>
+                <p>Numero de movil </p>
+                <p>0123456789</p>
             </div>
         
         </div>
