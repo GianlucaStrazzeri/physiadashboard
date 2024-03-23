@@ -1,0 +1,14 @@
+.userimage {
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+    height: 100px; /* Ajusta la altura según tus necesidades */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Para ajustar la imagen dentro del círculo */
+    border: 2px solid #fff; /* Opcional: añade un borde blanco alrededor de la imagen */
+  }
+  
+  .patientStructure{
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    gap:20px;
+  }

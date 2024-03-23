@@ -6,8 +6,8 @@ function Home() {
     return(
         <>
         <h1>Home</h1>
-        <h2>Listado de Cryptos</h2>
-        
+        <h2>Estructura futura de la pagina</h2>
+        <img src="../patient dashboard idea.png" alt="Imagen de perfil" ></img>
 
     
 
