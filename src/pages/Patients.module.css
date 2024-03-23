@@ -11,4 +11,28 @@
     justify-content: center;
     align-items: center ;
     gap:20px;
+    flex-wrap: wrap;
+    border:2px solid blue;
+    margin:10px 10px 10px 10px;
+  }
+
+  .userHeader{
+    display:flex;
+    gap:20px;
+    justify-content: space-between;
+    align-items: center ;
+    border:2px solid blue;
+    margin:10px 10px 10px 10px;
+  }
+
+  .buttonHeader{
+    display:flex;
+    gap:20px;
+    border:2px solid blue;
+    
+  }
+
+  .buttonColor{
+    background-color: rgb(10, 112, 247);
+    color:white;
   }

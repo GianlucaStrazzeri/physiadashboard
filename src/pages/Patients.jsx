@@ -9,24 +9,35 @@ function PatientsList() {
     
     return(
         <>
-        <button>Crear nuevo Paciente</button>
-        <h1>Patients</h1>
-        <h2>Listado de Pacientes</h2>
+        <div className={styles.userHeader}>
+            <h1>Patients: (90 pacientes)</h1>
+            <div className={styles.buttonHeader}>
+                <button className={styles.buttonColor}>Crear nuevo Paciente</button>
+                <button className={styles.buttonColor}>Crear nueva Cita</button>
+            </div>
+        
+        </div>
+        
         <div className={styles.patientStructure}>
-        <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
-        <h3>Nombre Paciente</h3>
-        <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
-        <h3>Nombre Paciente</h3>
-        <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
-        <h3>Nombre Paciente</h3>
-        <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
-        <h3>Nombre Paciente</h3>
-        <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
-        <h3>Nombre Paciente</h3>
-        <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
-        <h3>Nombre Paciente</h3>
-        <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
-        <h3>Nombre Paciente</h3>
+            <div>
+                <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
+                <h3>Jesús Garcia</h3>
+                <p>Numero de movil: 0123456789</p>
+            </div>
+            <div>
+                <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
+                <h3>Jesús Garcia</h3>
+                <p>Numero de movil: 0123456789</p>
+            </div><div>
+                <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
+                <h3>Jesús Garcia</h3>
+                <p>Numero de movil: 0123456789</p>
+            </div><div>
+                <img src="../avatar.jfif" alt="Imagen de perfil" className={styles.userimage} ></img>
+                <h3>Jesús Garcia</h3>
+                <p>Numero de movil: 0123456789</p>
+            </div>
+        
         </div>
         
         <h2>Estructura futura de la pagina</h2>
