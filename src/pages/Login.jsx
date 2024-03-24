@@ -33,7 +33,7 @@ function Login() {
             <h2>Access Your Account</h2>
             </div>
         
-        <button>Sign in with Google</button>
+        <button className={styles.sigInButton}><img src="../public/google-removebg-preview.png" width="30px"></img>Sign in with Google</button>
 <form onSubmit={handleSubmit}>
 <div>
           <label htmlFor="email">Email:</label>
@@ -55,9 +55,15 @@ function Login() {
             required
           />
 </div>
-<p>Forgot passwoord?</p>
+<div>
+<p>Remember me</p>
+<p>Forgot Passwoord?</p>
+
+
+</div>
+
         <button type="submit" className={styles.button}>Iniciar sesión</button>
- <p>Don't have an account? Sign up</p>
+ <p>Don't have an account? <b>Sign up</b></p>
 
 </form>
         </div>

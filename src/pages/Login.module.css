@@ -13,3 +13,10 @@
     color:white;
     padding: 0px 20px 0px 20px;
 }
+
+.sigInButton{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
