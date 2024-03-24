@@ -38,7 +38,7 @@ function Login() {
             <h2>Access Your Account</h2>
             </div>
         
-        <button className={styles.signButton}><img src="../public/google-removebg-preview.png" width="30px"></img>Sign with Google</button>
+        <button className={styles.signButton}><img src="../google-removebg-preview.png" width="30px"></img>Sign with Google</button>
 <form onSubmit={handleSubmit}>
 
 
@@ -77,8 +77,7 @@ function Login() {
 </form>
         </div>
         
-       <h2>Estructura futura de la pagina de Login</h2>
-        <img src="../Login Page.png" alt="Login page" ></img>
+       
         </>
     )}
 

@@ -54,8 +54,7 @@ function PatientsList() {
         
         </div>
         
-        <h2>Estructura futura de la pagina</h2>
-    <img src="../Patient table.png" alt="Imagen de perfil"></img>
+      
         </>
     )
 }

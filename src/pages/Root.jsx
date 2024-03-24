@@ -10,10 +10,22 @@ function Root() {
         <div className={styles.headerRoot}>
         <h1>Patient Dashboard</h1>
         <nav>
-        <Link to="/">Home</Link>
-        <Link to="/patients">Patients</Link>
-        <Link to="/login">Login</Link>
-        <Link to="/login/signup">SignUp</Link>
+            <div>
+            <Link to="/">Home</Link>
+            </div>
+            <div>
+            <Link to="/patients">Patients</Link>
+            </div>
+            <div>
+            <Link to="/login">Login</Link>
+            </div>
+            <div>
+            <Link to="/login/signup">SignUp</Link>
+            </div>
+        
+        
+        
+        
         </nav>
         <Outlet />
         </div>

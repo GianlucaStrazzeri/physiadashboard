@@ -30,8 +30,6 @@
   .buttonHeader{
     display:flex;
     gap:20px;
-    border:2px solid blue;
-    
   }
 
   .buttonColor{

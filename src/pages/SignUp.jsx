@@ -71,7 +71,7 @@ return(
     </div>
 
     <button className={styles.signButton}>
-        <img src="../public/google-removebg-preview.png" width="30px">
+        <img src="../google-removebg-preview.png" width="30px">
             </img>Sign with Google
     </button>
     <button type="submit" className={styles.button}>Iniciar sesión</button>
@@ -80,13 +80,6 @@ return(
 </div>
     
 
-
-
-
-
-    
-    <h2>Estructura futura de la pagina</h2>
-    <img src="../SignUP.png" alt="Imagen de perfil"></img>
     </>
 )}
 
