@@ -3,6 +3,7 @@ import PatientsList from './Patients';
 import Login  from './Login';
 import SignUp  from './SignUp';
 import styles from './Root.module.css';
+import { AiFillHome } from "react-icons/ai";
 
 function Root() {
     return(
@@ -11,7 +12,7 @@ function Root() {
         <h1>Patient Dashboard</h1>
         <nav>
             <div>
-            <Link to="/">Home</Link>
+            <Link to="/"><AiFillHome />Home</Link>
             </div>
             <div>
             <Link to="/patients">Patients</Link>
