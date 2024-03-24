@@ -6,8 +6,12 @@ import styles from './Login.module.css';
 
 function Login() {
     
+  
     const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
+
+
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
@@ -20,6 +24,7 @@ function Login() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Agregar la lógica para enviar los datos del formulario alservidor para autenticación
+    
     console.log('Email:', email);
     console.log('Contraseña:', password);
   };
@@ -33,10 +38,12 @@ function Login() {
             <h2>Access Your Account</h2>
             </div>
         
-        <button className={styles.sigInButton}><img src="../public/google-removebg-preview.png" width="30px"></img>Sign in with Google</button>
+        <button className={styles.signButton}><img src="../public/google-removebg-preview.png" width="30px"></img>Sign with Google</button>
 <form onSubmit={handleSubmit}>
+
+
 <div>
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email"></label>
           <input
             type="email"
             id="email"
@@ -46,7 +53,7 @@ function Login() {
           />
 </div>
 <div>
-          <label htmlFor="password">Contraseña:</label>
+          <label htmlFor="password"></label>
           <input
             type="password"
             id="password"
@@ -57,14 +64,14 @@ function Login() {
 </div>
 <div>
 <p>Remember me</p>
-<p>Forgot Passwoord?</p>
+<p><b>Forgot Passwoord?</b></p>
 
 
 </div>
 
         <button type="submit" className={styles.button}>Iniciar sesión</button>
  <p>Don't have an account? 
- <Link to="/signup"><b>Sign up</b></Link>
+ <Link to="/login/signup"><b>Sign up</b></Link>
   </p>
 
 </form>

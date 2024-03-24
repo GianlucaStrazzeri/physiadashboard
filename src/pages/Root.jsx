@@ -1,6 +1,7 @@
 import { Link, Outlet } from 'react-router-dom';
 import PatientsList from './Patients';
 import Login  from './Login';
+import SignUp  from './SignUp';
 import styles from './Root.module.css';
 
 function Root() {
@@ -12,7 +13,7 @@ function Root() {
         <Link to="/">Home</Link>
         <Link to="/patients">Patients</Link>
         <Link to="/login">Login</Link>
-        
+        <Link to="/login/signup">SignUp</Link>
         </nav>
         <Outlet />
         </div>
