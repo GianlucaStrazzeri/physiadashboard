@@ -7,18 +7,19 @@ import Login  from './pages/Login';
 import SignUp  from './pages/SignUp';
 import CreatePatientForm from "./pages/CreatePatientForm";
 
+//creo una costante router con varias subpaginas "hijas"
 
 const router = createBrowserRouter([
     {
       path: '/',
       element: <Root />,
-      errorElement: <ErrorPage />,
+      errorElement: <ErrorPage />,//Defino una pagina de error
       children: [
-        { path: '/', element: <Home /> },
-        { path: '/patients', element: <Patients /> },
-        { path: '/login', element: <Login /> },
-        { path: '/login/signUp', element: <SignUp /> },
-        { path: '/createpatients', element: <CreatePatientForm /> },
+        { path: '/', element: <Home /> },//Defino una Homepage
+        { path: '/patients', element: <Patients /> },//Defino una pagina que tiene que enseñar los pacientes
+        { path: '/login', element: <Login /> }, //Defino una pagina con un login
+        { path: '/login/signUp', element: <SignUp /> },//Defino una pagina tipo post para crear un usuario
+        { path: '/createpatients', element: <CreatePatientForm /> },//Defino una pagina tipo post para crear un paciente
       ],
     },
   ]);
